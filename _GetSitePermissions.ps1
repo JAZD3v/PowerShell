@@ -1,5 +1,5 @@
-$ServerRelativeUrl = "11445/ILSSInnovation" #https://info.health.mil/sites/AFDW-SG 
-$Context = "https://YourDomain$($ServerRelativeUrl)"
+$ServerRelativeUrl = "/TopSite/SubSite" 
+$Context = "https://YourDomain/Sites$($ServerRelativeUrl)"
 
 $PermLevelHash=@{
 Approve = 3
